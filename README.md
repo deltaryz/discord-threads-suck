@@ -7,7 +7,7 @@ Dependencies: `pip install discord.py`
 
 Commands:
 * `!keepalive` - enable bot updates in the current channel.
-* `!interval <minutes>` - set the interval to a specified amount of minutes
+* `!interval <hours>` - set the interval to a specified amount of hours
 * `!debug` - print registered targets and active tasks
 
 Create a file named `token.txt` in the working directory of the script containing your bot token.
