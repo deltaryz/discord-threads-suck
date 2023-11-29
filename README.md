@@ -1,7 +1,9 @@
 # discord-threads-suck
-Discord threads auto-hide after a week if you don't post anything. They should not do that.
+Discord threads auto-hide after a week if you don't post anything. [They should not do that](https://support.discord.com/hc/en-us/community/posts/19396627158423-Threads-forums-forcibly-auto-hiding-after-a-week-renders-the-feature-completely-useless-for-neurodivergents-with-ADHD-and-focus-issues).
 
 This bot begrudgingly works around this problem in a very primitive way - it simply posts a message in the thread at a specified interval to keep it 'active'.
+
+Dependencies: `pip install discord.py`
 
 Commands:
 * `!keepalive` - enable bot updates in the current channel.
