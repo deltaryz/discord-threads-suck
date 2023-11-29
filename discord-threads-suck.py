@@ -57,7 +57,9 @@ async def on_ready():
 # Event to respond to on_message event
 @bot.event
 async def on_message(message):
-    if(message.author.bot == False):
+    user = message.author
+    channel = message.channel
+    if message.author.bot == False and channel.permissions_for(user).manage_channels:
         # Check if the message is a ping
         if message.content.lower() == '!keepalive':
             # check if it already exists

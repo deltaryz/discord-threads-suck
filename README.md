@@ -10,6 +10,8 @@ Commands:
 * `!interval <hours>` - set the interval to a specified amount of hours
 * `!debug` - print registered targets and active tasks
 
+The user must have the 'manage channel' permission to use any of these commands.
+
 Create a file named `token.txt` in the working directory of the script containing your bot token.
 It will need permission to read your messages. (I think there's an alternate way of doing this with the commands API, but meh.)
 
